@@ -1,0 +1,49 @@
+body{
+   background-color: #589ED9;
+   color:white;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.header-holder{
+    margin: auto;
+}
+.header-holder .logo i{ font-size: 65px; display: flex; justify-content: center; color: white; }
+.header-holder h1{text-align: center; margin: 10px ; font-size: 22px;}
+.form-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    background-color: white;
+}
+.form-holder input[type="email"],
+.form-holder input[type="password"]{
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 0;
+    text-indent: 15px;
+    font-size: 16px;
+    border: none;
+    width: 230px;
+    font-family: "open sans" sans-serif;
+}
+.form-holder input[type="password"]{border-top: 1px solid #ccc; border-radius: 0px;}
+#submit button{
+    padding: 15px 20px;
+    margin-top: 10px;
+    width: 230px;
+    border-radius: 5px;
+    background-color: #2186D4;
+    font-family: "open sans" sans-serif;
+    color: white;
+    border: none;
+}
+p{font-size: 16px; font-family: "open sans" sans-serif;}
+p>a{ color: white; text-decoration: none; font-weight: bold; font-size: 18px; font-family: "open sans" sans-serif;}
